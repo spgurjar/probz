@@ -1,0 +1,97 @@
+.work_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(162.48deg, rgba(3, 14, 56, 0.9) 12%, rgba(0, 0, 0, 0.9) 140.11%);
+}
+.head{
+    margin-top: 2rem;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+.subhead{
+    padding: 0 10px;
+    margin-top: 1rem;
+    /* color: #535353; */
+    color:  #ffffff9d;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+.btn_box{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin: 10px;
+    padding: 10px 1rem ;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    color:  #FFFFFF;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(76, 108, 220, 1);
+}
+.img_box{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.caption1{
+    padding: 0 10px;
+    margin-top: 2rem;
+    color:  #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+.caption2{
+    padding: 0 10px;
+    width: 62rem;
+    margin: 1rem 0 2rem;
+    /* color: #535353; */
+    color:  #ffffff9d;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: justify;
+}
+@media screen and (max-width: 1024px) {
+    .caption2{
+        width: 88vw;
+    }
+    .work_img{
+        width: 90vw;
+    }
+}
+@media screen and (max-width: 600px){
+    .head{
+        font-size: 25px;
+    }
+    .subhead{
+        font-size: 16px;
+    }
+    .caption1{
+        font-size: 18px;
+    }
+    .caption2{
+        font-size: 16px;
+    }
+}

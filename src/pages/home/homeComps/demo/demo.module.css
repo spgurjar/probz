@@ -1,0 +1,67 @@
+.demo_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(241, 246, 250, 1); 
+}
+.demo_head{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+}
+.line1{
+    margin-top: 4rem;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: #141414;
+}
+.clr_text{
+    color: #2149D7;  
+}
+.line2{
+    margin-top: 2rem;
+    text-align: center;
+    /* width: 40rem; */
+    color: #535353;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn_box2{
+    margin: 3rem 0 2rem 0;
+    border-radius: 6px;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 1rem;
+    background: #1A2E75;;
+    cursor: pointer;
+}
+.get_btn{
+    margin-top: 3px;
+    margin-right: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    /* font-weight: 600; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.getbtn_icon{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+.rect_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 0;
+}
+@media screen and (max-width: 865px) {
+   .demo_head{
+    width: 80vw;
+   }
+}
