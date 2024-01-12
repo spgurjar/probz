@@ -1,0 +1,133 @@
+.header_body{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 85vw;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_item{
+    margin: 0 10px;
+    color:  #535353;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: 550;
+}
+.nav_item:hover{
+    color:  #141414;
+}
+.btn_box{
+    display: flex;
+}
+.Btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0 10px;
+    padding: 10px 1rem;
+    background-color: rgba(76, 108, 220, 0.1);
+    color:#141414 ;
+    border-radius: 70px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.Btn:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: #1A2E75;
+}
+.head_iconBg{
+    position: relative;
+    top: 5px;
+}
+.head_icon{
+    position: absolute;
+    bottom: 12px;
+    left: 3px;
+    color: rgba(26, 46, 117, 1);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar_window{
+    display: none;
+}
+.menuIcon{
+    color: #1A2E75;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    /* padding-right: 1rem; */
+    /* cursor: pointer;  */
+}
+
+@media screen and (max-width: 850px) {
+    .nav{
+        display: none;
+    }
+    .btn_box{
+        display: none;
+    }
+    .head_icon{
+        left: 4.2px;
+       bottom: 7px; 
+    }
+    .navbar_window{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menubar_body {
+        display: none;
+    }
+    .menubar_body a{
+        text-decoration: none;
+    }
+    .menuIcon{
+        cursor: pointer; 
+      }
+
+    .navbar_window.active .menubar_body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        z-index: 998;
+        background-color: rgb(234, 234, 239);
+        border-radius: 6px;
+        padding: 1rem 1.5rem;
+        top: 8rem;
+        right: 4rem;
+        height: 14rem; 
+         
+    }
+    .nav_item{
+        margin: 0;
+        margin-bottom: 3px;
+        padding: 5px 10px;
+        border-radius: 6px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .navbar_window.active .menubar_body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        z-index: 998;
+        background-color: rgb(234, 234, 239);
+        border-radius: 6px;
+        padding: 1rem 1.5rem;
+        top: 10.5rem;
+        right: 4rem;
+        height: 14rem; 
+    }
+}

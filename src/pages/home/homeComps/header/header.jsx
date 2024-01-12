@@ -1,4 +1,5 @@
 import styles from "./header.module.css";
+import Link from 'next/link';
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -16,12 +17,12 @@ const Header = () => {
             </div>
             <div className={styles.nav}>
                 <div className={styles.nav_item}>Pricng</div>
-                <div className={styles.nav_item}>How It Works</div>
+                <Link href="/working"><div className={styles.nav_item}>How It Works</div></Link>
                 <div className={styles.nav_item}>Case Studies</div>
                 <div className={styles.nav_item}>Reports</div>
             </div>
             <div className={styles.btn_box}>
-                <div className={styles.Btn}>Sign Up</div>
+                <Link href="/signUp"><div className={styles.Btn}>Sign Up</div></Link>
                 <div className={styles.Btn}>Book A Meeting</div>
             </div>
 

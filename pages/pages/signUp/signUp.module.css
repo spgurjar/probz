@@ -1,0 +1,253 @@
+.signUpcover{
+    display: flex;
+    justify-content: space-between;
+    margin: 0; 
+}
+.signUpForm{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    width: 50vw;
+}
+
+.signUpHead{
+    display: flex;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 1);
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    align-items: center;
+}
+.signUpsubHead{
+    color: #2149D7;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    text-transform: capitalize;
+}
+.cred_box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 10px 6rem 10px 2rem;
+    border: 1px solid rgba(83, 83, 83, 0.2);
+    border-radius: 180px;
+}
+.icon{
+    color: #535353;
+    font-size: 1.3rem;
+}
+.textArea{
+    color: #535353;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.textArea::placeholder{
+    color: #2149D7;
+}
+.Gbtn {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0 0;
+    background-color: rgba(246, 246, 246, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size:  24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 180px;
+    cursor: pointer;
+}
+.gbtn {
+    align-items: center;
+    background-color: inherit;
+    color: rgba(0, 0, 0, 1);
+    font-size:  20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+    /* padding: 12px 1.5rem; */
+}
+.gIcon{
+    width: 1.5rem;
+}
+.Or{
+    margin: 2rem 0;
+    color: #535353;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.cont_btn{
+    margin-top: 2rem;
+    padding: 1.2rem 9.6rem;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1A2E75;
+    border-radius: 180px;
+    cursor: pointer;
+}
+.register{
+    margin-top: 1rem;
+    display: flex;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rbtn{
+    margin-left: 2px;
+    color: #2149D7;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.sidepart{
+    width: 50vw;
+    display: flex;
+    flex: 1;
+    position:relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 90vh; */
+    background: linear-gradient(169.88deg, #25203F 51.21%, rgba(55, 45, 107, 0) 236.02%);
+}
+.hemis{
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+}
+.hemi_img{
+    height: 500px;
+    /* width: 420px; */
+}
+.s_box{
+    /* margin: 3rem 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.probz{
+    margin: 0 0 2rem 3rem;
+    /* width: auto; */
+    max-width: 30rem;
+    display: flex;
+    align-items: start;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: start;
+}
+.content_box{
+    position: relative;
+    margin: 0 2rem;
+    padding: 2rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+    background: linear-gradient(179.98deg, rgba(255, 255, 255, 0.1) 0.02%, rgba(255, 255, 255, 0) 188.87%);
+    backdrop-filter: blur(17.5px);
+    border-radius: 30px;
+}
+.head{
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-wrap: wrap;
+}
+.subHead{
+    text-wrap: wrap;
+    color: #FFFFFF;
+    margin-top: 1rem;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    width: 300px;
+}
+.icon1{
+    position: absolute;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    z-index: 10;
+    bottom: 5rem;
+    left: -2rem;
+    /* left: -17rem; */
+}
+.icon2{
+    position: absolute;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    z-index: 10;
+    top: 12rem;
+    right: -2rem;
+}
+@media screen and (max-height: 650px) {
+    .probz{
+        margin: 1rem 3rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .sidepart{
+        display: none;
+    }
+    .signUpcover{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .signUpForm{
+        width: auto;
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 450px){
+    .Gbtn{
+        margin-top: 1rem;
+        padding: 12px 2rem;
+    }
+    .gbtn{
+        font-size: 4vw;
+    }
+    .gIcon{
+        width: 5vw;
+    }
+    .Or{
+        margin: 1rem 0;
+    }
+    .cred_box{
+        padding: 10px 1rem;
+    }
+    .cont_btn{
+        padding: 12px 2rem;
+        font-size: 4vw;
+    }
+    .textArea{
+        padding: 0 0 0 10px;
+        font-size: 5vw;
+    }
+    .textArea::placeholder{
+        font-size: 5vw;
+    }
+}
