@@ -1,0 +1,113 @@
+.project_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pr_description_body{
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(144.08deg, rgba(76, 108, 220, 0.2) -20.46%, rgba(76, 108, 220, 0) 41.61%, rgba(0, 0, 0, 0.008) 41.61%);
+    border-radius: 40px;
+}
+.head{
+    padding: 2rem 2rem 0 2rem; 
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 600;
+}
+.pr_detail_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0 3rem;
+    
+}
+.detail{
+    margin: 1rem;
+    cursor: pointer;
+}
+.pr_box{
+    margin: 0 0 3rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 80vw;
+}
+.btn_box{
+    width: 52vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.project_btn{
+    padding: 5px 6rem;
+    display: flex;
+    align-items: center;
+    background-color: #1A2E75;
+    border-radius: 180px;
+    cursor: pointer;
+}
+.text{
+    margin-left: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.chat_btn{
+    margin: 0 3rem;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: rgba(76, 108, 220, 1);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.chatIcon{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 1300px) {
+    .btn_box{
+        width: 57vw;
+    }
+}
+@media screen and (max-width: 900px){
+    .pr_box{
+        justify-content: center;
+        align-items: center;
+    }
+    .btn_box{
+        justify-content: center;
+    }
+    .chat_btn{
+        margin: 1rem;
+    }
+    .project_btn{
+        padding: 5px 3rem;
+    }
+    .text{
+        /* width: 10rem; */
+        font-size: 16px;
+    }
+    .pIcon{
+        width: 4vw;
+    }
+    .chatIcon{
+        font-size: 4vw;
+    }
+}
+@media screen and (max-width: 370px){
+    .text{
+        width: 6rem;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 500px){
+    .pr_description_body{
+        padding: 1rem 0;
+    }
+}

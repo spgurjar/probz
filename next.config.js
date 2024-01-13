@@ -19,6 +19,16 @@ const nextConfig = {
           },
 
           {
+            source: "/project",
+            destination: "/pages/project/project",
+          },
+
+          {
+            source: "/step1",
+            destination: "/pages/step1/step1",
+          },
+
+          {
             source: "/static/media/:path*",
             destination: "/static/media/:path*",
           },
