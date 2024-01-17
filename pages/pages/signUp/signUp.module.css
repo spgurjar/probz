@@ -19,14 +19,14 @@
     margin-bottom: 1rem;
     color: rgba(0, 0, 0, 1);
     font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-weight: 600;
     align-items: center;
 }
 .signUpsubHead{
     color: #2149D7;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-weight: 550;
     text-transform: capitalize;
 }
@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
-    padding: 10px 6rem 10px 2rem;
+    padding: 7px 12rem 10px 2rem;
     border: 1px solid rgba(83, 83, 83, 0.2);
     border-radius: 180px;
 }
@@ -59,9 +59,9 @@
     background-color: rgba(246, 246, 246, 1);
     color: rgba(255, 255, 255, 1);
     font-size:  24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     border: none;
-    padding: 1rem 4rem;
+    padding: 1rem 8rem;
     border-radius: 180px;
     cursor: pointer;
 }
@@ -70,7 +70,7 @@
     background-color: inherit;
     color: rgba(0, 0, 0, 1);
     font-size:  20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     border: none;
     margin-left: 5px;
     cursor: pointer;
@@ -83,15 +83,15 @@
     margin: 2rem 0;
     color: #535353;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-weight: 550;
 }
 .cont_btn{
     margin-top: 2rem;
-    padding: 1.2rem 9.6rem;
+    padding: 1.1rem 12.7rem;
     color: #FFFFFF;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     background: #1A2E75;
     border-radius: 180px;
     cursor: pointer;
@@ -100,7 +100,7 @@
     margin-top: 1rem;
     display: flex;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 .rbtn{
     margin-left: 2px;
@@ -126,8 +126,8 @@
     right: 0;
 }
 .hemi_img{
-    height: 500px;
-    /* width: 420px; */
+    height: 85vh;
+    width: auto;
 }
 .s_box{
     /* margin: 3rem 0; */
@@ -144,18 +144,20 @@
     align-items: start;
     color: #FFFFFF;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-weight: 600;
     text-align: start;
 }
 .content_box{
+    height: 70vh;
     position: relative;
     margin: 0 2rem;
     padding: 2rem 2rem 0 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    max-width: 30rem;
+    max-width: 25rem;
     background: linear-gradient(179.98deg, rgba(255, 255, 255, 0.1) 0.02%, rgba(255, 255, 255, 0) 188.87%);
     backdrop-filter: blur(17.5px);
     border-radius: 30px;
@@ -163,7 +165,7 @@
 .head{
     color: #FFFFFF;
     font-size: 2vw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-weight: 600;
     text-wrap: wrap;
 }
@@ -172,7 +174,7 @@
     color: #FFFFFF;
     margin-top: 1rem;
     font-size: 1vw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 .img{
     width: 300px;
@@ -184,7 +186,7 @@
     background-color: #FFFFFF;
     border-radius: 100%;
     z-index: 10;
-    bottom: 5rem;
+    bottom: 7rem;
     left: -2rem;
     /* left: -17rem; */
 }
@@ -195,7 +197,7 @@
     background-color: #FFFFFF;
     border-radius: 100%;
     z-index: 10;
-    top: 12rem;
+    top: 14rem;
     right: -2rem;
 }
 @media screen and (max-height: 650px) {

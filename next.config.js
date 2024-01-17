@@ -29,6 +29,16 @@ const nextConfig = {
           },
 
           {
+            source: "/step2",
+            destination: "/pages/step2/step2",
+          },
+
+          {
+            source: "/dropdown",
+            destination: "/pages/dropdown/dropdown",
+          },
+
+          {
             source: "/static/media/:path*",
             destination: "/static/media/:path*",
           },

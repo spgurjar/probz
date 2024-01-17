@@ -6,7 +6,7 @@ const About = () => {
         <div className={styles.about_body}>
             <div className={styles.body_box}>
                 <div className={styles.text_box}>
-                    <div className={styles.head}>Scaling Quality Feedback with <span className={styles.clr_text}>AI-Power</span></div>
+                    <div className={styles.head}>Scaling Quality Feedback with <br></br><span className={styles.clr_text}>AI-Power</span></div>
                     <div className={styles.subhead}><span className={styles.clr_text}>Probz.ai</span> ensures a deep understanding of user preferences, offering holistic insights</div>
                     <div className={styles.btn_box}><div className={styles.start_btn}>Start Now</div><img className={styles.start_icon} src="/icons/startIcon.png"/></div>
                 </div>
@@ -16,7 +16,7 @@ const About = () => {
                 </div>
             </div>
             <div className={styles.body_box2}>
-                <div className={styles.img_box}><img className={styles.abt2} src="/images/abt2.png" /></div>
+                <div className={styles.img_box2}><img className={styles.abt2} src="/images/abt2.png" /></div>
                 <div className={styles.text_box2}>
                     <div className={styles.line1}>Quant, Qual & Video Research</div>
                     <div className={styles.line2}>End-to-End<br></br> AI-Powered Insights</div>

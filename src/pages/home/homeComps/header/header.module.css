@@ -13,7 +13,7 @@
     margin: 0 10px;
     color:  #535353;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     cursor: pointer;
     font-weight: 550;
 }
@@ -24,10 +24,10 @@
     display: flex;
 }
 .Btn{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     margin: 0 10px;
-    padding: 10px 1rem;
+    padding: 12px 1.5rem;
     background-color: rgba(76, 108, 220, 0.1);
     color:#141414 ;
     border-radius: 70px;
@@ -40,16 +40,16 @@
 }
 .head_iconBg{
     position: relative;
-    top: 5px;
+    top: 8px;
 }
 .head_icon{
     position: absolute;
-    bottom: 12px;
+    bottom: 16px;
     left: 3px;
     color: rgba(26, 46, 117, 1);
     font-size: 20px;
     font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 .navbar_window{

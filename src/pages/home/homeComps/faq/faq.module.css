@@ -13,7 +13,7 @@
     left: -5rem;
     color: rgba(20, 20, 20, 0.05);
     font-size: 245px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-weight: 600;
 }
 .space{
@@ -25,7 +25,7 @@
     left: 1rem;
     color: #535353;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-weight: 600;
 }
 .text2{
@@ -34,7 +34,7 @@
     left: 1rem;
     color: rgba(0, 0, 0, 1);
     font-size: 64px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-weight: 700;
 }
 .faq_box{
@@ -46,6 +46,7 @@
     overflow: hidden;
 }
 .blue_box{
+    margin-left: 6rem;
     width: 30rem;
     display: flex;
     flex-direction: column;
@@ -62,9 +63,14 @@
     margin: 1rem 0;
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     text-align: center;
     line-height: 2;
+}
+@media screen and (max-width: 1100px){
+    .blue_box{
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 500px) {

@@ -42,7 +42,7 @@ const Step1 = () => {
                     <div className={styles.back}>Back</div>
                     <div className={styles.project_btn}>
                         <div className={styles.icon}><img className={styles.pIcon} src="/icons/pIcon.png" /></div>
-                        <div className={styles.text}>New Project</div>
+                        <div className={styles.text}>Create a survey</div>
                     </div>
                 </div>
             </div>

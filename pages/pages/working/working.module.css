@@ -8,7 +8,7 @@
     margin-top: 2rem;
     color: rgba(0, 0, 0, 1);
     font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-weight: 600;
     text-transform: capitalize;
     text-align: center;
@@ -19,7 +19,7 @@
     /* color: #535353; */
     color:  rgba(0, 0, 0, 1);
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     text-transform: capitalize;
     text-align: center;
 }
@@ -38,7 +38,7 @@
     border-radius: 10px;
     color:  rgba(0, 0, 0, 1);
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     align-items: center;
     text-align: center;
     cursor: pointer;
@@ -59,7 +59,7 @@
     color:  rgba(0, 0, 0, 1);
     font-size: 24px;
     font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     text-transform: capitalize;
     text-align: center;
 }
@@ -70,7 +70,7 @@
     /* color: #535353; */
     color:  rgba(0, 0, 0, 1);
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     text-transform: capitalize;
     text-align: center;
     line-height: 1.5;
@@ -83,25 +83,28 @@
     width: 80vw;
 }
 .btn_box{
-    width: 52vw;
+    width: 55vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 .project_btn{
-    padding: 5px 6rem;
+    padding: 5px 10.2rem;
     display: flex;
     align-items: center;
     background-color: #1A2E75;
     border-radius: 180px;
     cursor: pointer;
 }
+.pIcon{
+    width: 40px;
+}
 .text{
     margin-left: 5px;
     color: #FFFFFF;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-weight: 600;
 }
 .chat_btn{
@@ -122,7 +125,7 @@
         width: 57vw;
     }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1100px){
     .pr_box{
         justify-content: center;
         align-items: center;
@@ -133,9 +136,7 @@
     .chat_btn{
         margin: 1rem;
     }
-    .project_btn{
-        padding: 5px 3rem;
-    }
+  
     .text{
         /* width: 10rem; */
         font-size: 16px;
@@ -145,6 +146,11 @@
     }
     .chatIcon{
         font-size: 4vw;
+    }
+}
+@media screen and (max-width: 700px){
+    .project_btn{
+        padding: 10px 3rem;
     }
 }
 @media screen and (max-width: 370px){

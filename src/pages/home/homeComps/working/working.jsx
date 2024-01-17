@@ -6,9 +6,9 @@ const Working = () => {
             <div className={styles.head}>How It Works</div>
             <div className={styles.subhead}>Empower your business with informed insights driving smarter decisions</div>
             <div className={styles.btn_box}>
-                <div className={styles.btn}>Create a new project</div>
-                <div className={styles.btn}>Select Demographics</div>
-                <div className={styles.btn}>Submit Survey</div>
+                <div className={styles.btn1}>Create a new project</div>
+                <div className={styles.btn2}>Select Demographics</div>
+                <div className={styles.btn3}>Submit Survey</div>
             </div>
             <div className={styles.img_box}>
                 <img className={styles.work_img} src="/images/working.png" />
