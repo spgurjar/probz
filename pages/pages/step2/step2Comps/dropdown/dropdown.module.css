@@ -1,0 +1,94 @@
+
+.dropdown_body {
+  margin: 1rem 1rem 1rem 0;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.selectButton {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(76, 108, 220, 0.05);
+  width: 460px;
+  /* width: auto; */
+  color: rgba(20, 20, 20, 0.4);
+  font-size: 20px;
+  font-family: 'Mulish', sans-serif ;
+  padding: 1rem 2rem 1rem 1rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.arwIcon{
+  font-size: 28px;
+}
+.selectButton:hover{
+  border: 1px solid rgba(33, 73, 215, 1);
+}
+.dd_menu {
+  margin-top: 1rem;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 460px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dd_menu.show {
+  display: block;
+}
+
+.res_options{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem 1rem 1rem ;
+  font-size: 20px;
+  font-family: 'Mulish', sans-serif ;
+
+}
+.selectedOptions {
+  display: flex;
+  margin-left: 4rem;
+}
+.option {
+  margin-left: 1rem;
+  background-color: rgba(76, 108, 220, 0.2);
+  border-radius: 100px;
+  font-size: 20px;
+  font-family: 'Mulish', sans-serif ;
+  font-family: 'Mulish', sans-serif ;
+  padding: 15px 2.5rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 1350px) {
+  .selectButton{
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .dropdown_body{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .selectButton{
+    font-size: 18px;
+  }
+  .option{
+    margin: 1rem 5px 1rem 0;
+    font-size: 18px;
+    padding: 12px 1.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .selectButton{
+    width: 220px;
+    padding: 12px;
+  }
+  .option{
+    padding: 10px 15px;
+    margin: 10px 5px 10px 0 ;
+  }
+}

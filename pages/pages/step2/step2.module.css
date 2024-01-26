@@ -4,6 +4,7 @@
     align-items: center;
 }
 .head_box{
+    width: 65vw;
     padding: 1rem;
     margin: 2rem 1rem 4rem 1rem;
     display: flex;
@@ -37,7 +38,7 @@
     text-decoration: underline;
 }
 .colmTitle{
-    margin: 2rem 0;
+    margin: 2rem 0 10px 10px;
     color: rgba(0, 0, 0, 1);
     font-size: 20px;
     font-family: 'Mulish', sans-serif;
@@ -52,6 +53,38 @@
     background-color: rgba(76, 108, 220, 0.05);
     border-radius: 10px;
     color: #999; 
+}
+.dg_box{
+    display: flex;
+    justify-content: space-between;
+}
+.dg_right{
+    margin-left: 5rem;
+}
+.selectButton {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(76, 108, 220, 0.05);
+    width: 410px;
+    /* height: 3.5rem; */
+    /* width: auto; */
+    color: rgba(20, 20, 20, 0.4);
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif ;
+    padding: 1rem 2rem 1rem 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .selectButton:hover{
+    border: 1px solid rgba(33, 73, 215, 1);
+    color: rgba(20, 20, 20, 1);
+  }
+.dg_right{
+    width: 50vw;
+    height: 15rem;
 }
 .slct_box{
     display: flex;
@@ -77,17 +110,6 @@
     font-family: 'Mulish', sans-serif;
     justify-content: center;
 }
-.bulb{
-    margin-right: 5px;
-}
-/* .pr_box{
-    margin: 0 0 3rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80vw;
-} */
 .btn_box{
     /* width: 52vw; */
     margin: 0 0 3rem 0;
@@ -96,14 +118,15 @@
     justify-content: center;
     align-items: center;
 }
-.continue_btn{
-    margin: 1rem 0;
-    padding: 5px 6rem;
+.icon{
     display: flex;
     align-items: center;
-    background-color: #1A2E75;
-    border-radius: 180px;
-    cursor: pointer;
+}
+.arwIcon{
+    font-size: 28px;
+}
+.continue_btn{
+    margin: 6rem 0 0 0;
 }
 .text{
     margin-left: 5px;
@@ -142,10 +165,10 @@
     }
     .text{
         /* width: 10rem; */
-        font-size: 16px;
+        font-size: 18px;
     }
     .pIcon{
-        width: 4vw;
+        width: 25px;
     }
     .chatIcon{
         font-size: 4vw;
@@ -168,6 +191,7 @@
         width: 240px;
     }
     .head_box{
+        width: auto;
         padding: 5px;
         margin: 1rem 10px 2rem 10px;
     }
