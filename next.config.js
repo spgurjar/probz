@@ -34,6 +34,11 @@ const nextConfig = {
           },
 
           {
+            source: "/step3",
+            destination: "/pages/step3/step3",
+          },
+
+          {
             source: "/dropdown",
             destination: "/pages/dropdown/dropdown",
           },

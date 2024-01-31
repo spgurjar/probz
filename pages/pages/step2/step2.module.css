@@ -60,6 +60,7 @@
 }
 .dg_right{
     margin-left: 5rem;
+    height: auto;
 }
 .selectButton {
     margin: 1rem 0;
@@ -82,10 +83,7 @@
     border: 1px solid rgba(33, 73, 215, 1);
     color: rgba(20, 20, 20, 1);
   }
-.dg_right{
-    width: 50vw;
-    height: 15rem;
-}
+
 .slct_box{
     display: flex;
     flex-wrap: wrap;
@@ -99,25 +97,6 @@
     border-radius: 10px;
     cursor: pointer;
 }
-.note{
-    margin: 3rem 0 1rem 0;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    background-color: rgba(220, 179, 76, 0.1);
-    border-radius: 10px;
-    font-size: 18px;
-    font-family: 'Mulish', sans-serif;
-    justify-content: center;
-}
-.btn_box{
-    /* width: 52vw; */
-    margin: 0 0 3rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .icon{
     display: flex;
     align-items: center;
@@ -126,60 +105,32 @@
     font-size: 28px;
 }
 .continue_btn{
+    display: flex;
+    justify-content: center;
     margin: 6rem 0 0 0;
 }
-.text{
-    margin-left: 5px;
-    color: #FFFFFF;
-    font-size: 20px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 600;
-}
-.back{
-    display: flex;
-    align-items: center;
-    padding: 10px 15px;
-    cursor: pointer;
-    color: #535353;
-    text-decoration: underline;
-    font-size: 18px;
-}
-@media screen and (max-width: 1300px) {
-    .btn_box{
-        width: 57vw;
+
+@media screen and (max-width: 1350px) {
+   
+    .dg_right{
+        margin-left: 1rem;
+    }
+    .selectButton{
+        width: 250px;
     }
 }
-@media screen and (max-width: 900px){
-    /* .pr_box{
-        justify-content: center;
-        align-items: center;
-    } */
-    .btn_box{
-        justify-content: center;
+@media screen and (max-width: 850px){
+    .dg_box{
+        flex-wrap: wrap;
     }
-    .chat_btn{
-        margin: 1rem;
-    }
-    .continue_btn{
-        padding: 5px 3rem;
-    }
-    .text{
-        /* width: 10rem; */
-        font-size: 18px;
-    }
-    .pIcon{
-        width: 25px;
-    }
-    .chatIcon{
-        font-size: 4vw;
+    .dg_right{
+        margin-left: 0;
     }
 }
 @media screen and (max-width: 370px){
-    .text{
-        width: 6rem;
-        font-size: 14px;
-    }
-    
+    .selectButton{
+        width: auto;
+    }   
 }
 @media screen and (max-width: 500px){
     .title{

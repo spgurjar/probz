@@ -99,7 +99,7 @@ const Step2 = () => {
                     )}
                 </div>
                 <div className={styles.continue_btn}>
-                  <ContinueButton />
+                  <div><ContinueButton /></div>
                 </div>
             </div>
             <div><Footer/></div>
