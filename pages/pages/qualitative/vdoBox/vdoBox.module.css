@@ -1,0 +1,177 @@
+.vdobox_body{
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.vb_head_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw; 
+    margin-bottom: 2rem;
+}
+.head{
+    color: rgba(83, 83, 83, 1);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Mulish', sans-serif;
+}
+.videoNumber{
+    color: rgba(20, 20, 20, 1);
+}
+.vdo_count{
+    margin-right: 4rem;
+    color: rgba(33, 73, 215, 1);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: underline;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+.carousel_container {
+    width: 90vw; 
+}  
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.vdo_holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.content{
+    width: 280px;
+    /* height: 155px; */
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-wrap: wrap;
+}
+.btn_box{
+    margin-right: 7rem;
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(33, 73, 215, 1);
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Mulish', sans-serif ;  
+}
+.btn{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.carousel .control-dots{
+    padding: 10px;
+    text-align: start;
+}
+.carousel .control-dots .dot{
+    background-color: rgba(26, 46, 117, 1);
+}
+.modal {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.582); /* Transparent black background */
+   }
+   
+   .modalContent {
+    position: relative;
+    margin: auto;
+    padding-top: 10%; /* Adjust as needed */
+    width: 80%;
+    max-width: 700px;
+   }
+   
+   .fullscreenVideo {
+    position: absolute;
+    top: 11rem;
+    left: 5rem;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+   }
+@media screen and (max-width: 1350px){
+    .vb_head_box{
+        width: 75vw;
+    }
+    .vdo_count{
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .vdo_holder{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .container{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 750px){
+    .carousel_container{
+        padding:2rem;
+        height: auto;
+        width: 500px;
+        /* margin: 1rem auto; */
+    }
+    /* .vb_head_box{
+        width: 95vw;
+    } */
+}
+@media screen and (max-width: 550px){
+    .carousel_container{
+        padding:1rem;
+        width: 350px;
+        /* margin: 1rem auto; */
+    }
+    /* .vb_head_box{
+        width: 99vw;
+    } */
+    .head{
+        font-size: 18px;
+    }
+    .vdo_count{
+        font-size: 17px;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .carousel_container{
+        padding:1rem 5px;
+        /* width: 270px; */
+        /* margin: 1rem auto; */
+        width: 80vw;
+    }
+    .vdo_holder{
+        justify-content: center;
+    }
+    .content{
+        width: auto;
+    }
+}
+@media screen and (max-width: 350px){
+    .btn_box{
+        margin-right: 0;
+    }
+    .head{
+        font-size: 16px;
+    }
+    .vdo_count{
+        font-size: 16px;
+    }
+}

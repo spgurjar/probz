@@ -26,6 +26,9 @@
 .step_box{
     display: flex;
 }
+.step_box a{
+    text-decoration: none;
+}
 .step{
     margin: 0 7px;
     color: #535353;

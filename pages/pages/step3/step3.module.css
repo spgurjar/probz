@@ -25,6 +25,9 @@
 .step_box{
     display: flex;
 }
+.step_box a{
+    text-decoration: none;
+}
 .step{
     margin: 0 7px;
     color: #535353;
@@ -166,6 +169,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.btn_box a{
+    text-decoration: none;
 }
 .pIcon{
     width: 40px;

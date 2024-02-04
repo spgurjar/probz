@@ -1,16 +1,14 @@
 .header_body{
     margin: 1rem 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1rem;
+    width: 70vw;
 }
 .nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.nav a{
-    text-decoration: none;
 }
 .nav_item{
     margin: 0 10px;
@@ -26,14 +24,11 @@
 .btn_box{
     display: flex;
 }
-.btn_box a{
-    text-decoration: none;
-}
 .Btn{
     font-family: 'Mulish', sans-serif;
     font-size: 14px;
     margin: 0 10px;
-    padding: 12px 1.5rem;
+    padding: 10px 1rem;
     background-color: rgba(76, 108, 220, 0.1);
     color:#141414 ;
     border-radius: 70px;
@@ -46,11 +41,11 @@
 }
 .head_iconBg{
     position: relative;
-    top: 8px;
+    top: 5px;
 }
 .head_icon{
     position: absolute;
-    bottom: 16px;
+    bottom: 12px;
     left: 3px;
     color: rgba(26, 46, 117, 1);
     font-size: 20px;

@@ -36,7 +36,7 @@
     width: 80vw;
 }
 .btn_box{
-    width: 52vw;
+    width: 55vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -49,6 +49,12 @@
     background-color: #1A2E75;
     border-radius: 180px;
     cursor: pointer;
+}
+.project_btn a{
+    text-decoration: none;
+}
+.pIcon{
+    width: 40px;
 }
 .text{
     margin-left: 5px;

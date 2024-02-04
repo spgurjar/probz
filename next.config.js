@@ -39,6 +39,21 @@ const nextConfig = {
           },
 
           {
+            source: "/experience",
+            destination: "/pages/experience/experience",
+          },
+
+          {
+            source: "/qualitative",
+            destination: "/pages/qualitative/qualitative",
+          },
+
+          {
+            source: "/vdoBox",
+            destination: "/pages/vdoBox/vdoBox",
+          },
+
+          {
             source: "/dropdown",
             destination: "/pages/dropdown/dropdown",
           },

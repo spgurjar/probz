@@ -18,6 +18,9 @@
     border-radius: 180px;
     cursor: pointer;
 }
+.continue_btn a{
+    text-decoration: none;
+}
 .text{
     margin-left: 5px;
     color: #FFFFFF;

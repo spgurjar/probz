@@ -1,0 +1,39 @@
+.qa_body{
+    padding: 10px 0;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.question{
+    margin-right: 1rem;
+    color: rgba(20, 20, 20, 1);
+    font-size: 20px;
+    /* font-weight: 550; */
+    text-transform: capitalize;
+    font-family: 'Mulish', sans-serif;
+}
+.answer{
+    padding-right: 1rem;
+    margin-right: 1rem;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: rgba(20, 20, 20, 0.5);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Mulish', sans-serif;
+    line-height: 1.5;
+}
+@media screen and (max-width: 1350px){
+    .qa_body{
+        width: 85vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    .answer{
+        font-size: 18px;
+    }
+    .question{
+        font-size: 18px;
+    }
+}

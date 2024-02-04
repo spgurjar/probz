@@ -97,6 +97,9 @@
     border-radius: 180px;
     cursor: pointer;
 }
+.project_btn a{
+    text-decoration: none;
+}
 .pIcon{
     width: 40px;
 }

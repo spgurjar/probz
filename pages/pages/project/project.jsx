@@ -4,6 +4,8 @@ import Header from "../assets/header/header";
 import Footer from "../assets/footer/footer";
 import { BiChat } from "react-icons/bi";
 import DescBox from "./projectComp/descBox";
+import Link from 'next/link';
+
 
 const Project = () => {
     return(
@@ -27,7 +29,7 @@ const Project = () => {
                 <div className={styles.btn_box}>
                     <div className={styles.project_btn}>
                         <div className={styles.icon}><img className={styles.pIcon} src="/icons/pIcon.png" /></div>
-                        <div className={styles.text}>New Project</div>
+                        <Link href="/step1"><div className={styles.text}>New Project</div></Link>
                     </div>
                     <div className={styles.chat_btn}><BiChat className={styles.chatIcon} /></div>
                 </div>

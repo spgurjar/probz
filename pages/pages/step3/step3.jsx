@@ -8,6 +8,7 @@ import Offer from "../assets/offer/offer";
 import Header from "../assets/header/header";
 import Footer from "../assets/footer/footer";
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 
 const Step3 = () => {
@@ -43,9 +44,9 @@ const Step3 = () => {
                 <div className={styles.header}>
                     <div className={styles.title}></div>
                     <div className={styles.step_box}>
-                        <div className={styles.step}>Step 1</div>
-                        <div className={styles.step}>Step 2</div>
-                        <div className={styles.step}>Step 3</div>
+                    <Link href="/step1"><div className={styles.step}>Step 1</div></Link>
+                    <Link href="/step2"><div className={styles.step}>Step 2</div></Link>
+                    <Link href="/step3"><div className={styles.step}>Step 3</div></Link>
                     </div>
                 </div>
                 <div className={styles.note_box}>
@@ -96,9 +97,9 @@ const Step3 = () => {
             <div className={styles.btn_box}>
                 <div onClick={() => console.log(questions)} className={styles.continue_btn}>
                     <div className={styles.icon}><img className={styles.pIcon} src="/icons/pIcon.png" /></div>
-                    <div className={styles.text}>Genarate survey Questions</div>
+                    <Link href="/experience"><div className={styles.text}>Genarate survey Questions</div></Link>
                </div>
-               <div className={styles.back}>Back</div>
+                    <Link href="/step2"><div className={styles.back}>Back</div></Link>
             </div>
             <div><Footer/></div>
         </div>

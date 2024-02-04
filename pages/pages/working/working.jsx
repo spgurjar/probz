@@ -3,6 +3,7 @@ import Offer from "../assets/offer/offer";
 import Header from "../assets/header/header";
 import { BiChat } from "react-icons/bi";
 import Footer from "../assets/footer/footer";
+import Link from 'next/link';
 
 const Working = () => {
     return(
@@ -27,7 +28,7 @@ const Working = () => {
                 <div className={styles.btn_box}>
                     <div className={styles.project_btn}>
                         <div className={styles.icon}><img className={styles.pIcon} src="/icons/pIcon.png" /></div>
-                        <div className={styles.text}>New Project</div>
+                        <Link href="/project"><div className={styles.text}>New Project</div></Link>
                     </div>
                     <div className={styles.chat_btn}><BiChat className={styles.chatIcon} /></div>
                 </div>

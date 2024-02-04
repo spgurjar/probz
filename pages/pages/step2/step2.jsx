@@ -11,6 +11,7 @@ import Dropdown from './step2Comps/dropdown/dropdown';
 import {DropdownProvider, DropdownContext} from "./step2Comps/demographs/dgTemp/dgContext"
 import Dgtemp from './step2Comps/demographs/dgTemp/dgTemp';
 import ContinueButton from './step2Comps/demographs/dgTemp/dgContinue/dgContinue';
+import Link from 'next/link';
 
 const Step2 = () => {
     const [selectedDropdown, setSelectedDropdown] = useState({
@@ -43,9 +44,9 @@ const Step2 = () => {
                 <div className={styles.header}>
                     <div className={styles.title}>Pick your Audience</div>
                     <div className={styles.step_box}>
-                        <div className={styles.step}>Step 1</div>
-                        <div className={styles.step}>Step 2</div>
-                        <div className={styles.step}>Step 3</div>
+                    <Link href="/step1"><div className={styles.step}>Step 1</div></Link>
+                    <Link href="/step2"><div className={styles.step}>Step 2</div></Link>
+                    <Link href="/step3"><div className={styles.step}>Step 3</div></Link>
                     </div>
                 </div>
                 <div className={styles.colmTitle}>Type of responses</div>
