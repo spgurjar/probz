@@ -7,6 +7,20 @@
     background-color: rgba(54, 56, 70, 1);
     height: 100%;
 }
+.head_iconBg{
+    position: relative;
+    top: -3.2rem;
+    left: 5rem;
+}
+.head_icon{
+    position: absolute;
+    bottom: -1px;
+    left: 3px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Mulish', sans-serif;
+}
 .sb_items{
     display: flex;
     flex-direction: column;

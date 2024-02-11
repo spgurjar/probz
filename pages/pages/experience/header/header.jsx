@@ -12,8 +12,8 @@ const Header = () => {
     return(
         <div className={styles.header_body}>
             <div className={styles.head_iconBg}>
-                <img className={styles.icon} src="/icons/probzBg.png"/>
-                <div className={styles.head_icon}>Probz</div>
+                {/* <img className={styles.icon} src="/icons/probzBg.png"/>
+                <div className={styles.head_icon}>Probz</div> */}
             </div>
             <div className={styles.btn_box}>
                 <div className={styles.Btn}>Book A Meeting</div>
